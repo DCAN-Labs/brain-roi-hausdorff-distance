@@ -12,5 +12,5 @@ fprintf('Result of first example: %f\n', dist)
 
 % Note that the "spread-outness" of a single region is 0.0 as you would
 % expect.
-dist = MultiRegionMHD([roi_1]);
+dist = MultiRegionMHD({roi_1});
 fprintf('Result of second example: %f\n', dist)

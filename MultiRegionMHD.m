@@ -9,8 +9,8 @@ maxDist = 0.0;
 m = length(regions);
 for i = 1 : m - 1
     for j = i + 1 : m
-        region1 = regions(i);
-        region2 = regions(j);
+        region1 = regions{i};
+        region2 = regions{j};
         dist = ModHausdorffDist(region1, region2);
         if dist > maxDist
             maxDist = dist;
