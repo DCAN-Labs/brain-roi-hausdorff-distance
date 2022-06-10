@@ -8,5 +8,6 @@ denoting ROIs in an MRI scan, for example.
 
 You can see examples of how to call `MultiRegionMHD` in [SampleMultiRegionMHDCall](./SampleMultiRegionMHDCall.m)
 
-Uses the [Modified Hausdorff Distance](https://www.mathworks.com/matlabcentral/fileexchange/29968-modified-hausdorff-distance) library.
-    * Sasikanth (2022). Modified Hausdorff Distance (https://www.mathworks.com/matlabcentral/fileexchange/29968-modified-hausdorff-distance), MATLAB Central File Exchange. Retrieved June 10, 2022. 
+Uses the [Modified Hausdorff Distance](https://www.mathworks.com/matlabcentral/fileexchange/29968-modified-hausdorff-distance) library:
+    
+* Sasikanth (2022). Modified Hausdorff Distance (https://www.mathworks.com/matlabcentral/fileexchange/29968-modified-hausdorff-distance), MATLAB Central File Exchange. Retrieved June 10, 2022. 
